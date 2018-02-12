@@ -36,7 +36,7 @@
     "scrollAnimation": "true",
     "cookiesAlert": "",
     "google-analytics": "",
-    "html_before": "",
+    "html_before": "<!-- CarrotQuest BEGIN -->\r\n<script type=\"text/javascript\">\r\n    (function(){\r\n      function Build(name, args){return function(){window.carrotquestasync.push(name, arguments);} }\r\n      if (typeof carrotquest === 'undefined') {\r\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;\r\n        s.src = '//cdn.carrotquest.io/api.min.js';\r\n        var x = document.getElementsByTagName('head')[0]; x.appendChild(s);\r\n        window.carrotquest = {}; window.carrotquestasync = []; carrotquest.settings = {};\r\n        var m = ['connect', 'track', 'identify', 'auth', 'open', 'onReady', 'addCallback', 'removeCallback', 'trackMessageInteraction'];\r\n        for (var i = 0; i < m.length; i++) carrotquest[m[i]] = Build(m[i]);\r\n      }\r\n    })();\r\n  carrotquest.connect('14405-3549b873b58e06fbd45fc080bf');\r\n</script>\r\n<!-- CarrotQuest END -->",
     "headbody": "",
     "botbody": ""
   },
