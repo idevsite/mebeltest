@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 
 
 
@@ -536,13 +538,14 @@ a:hover,
 #menu3-g .link,
 #menu3-g .dropdown-item {
   color: #345789;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu3-g .link {
-  font-size: 0.75rem;
+  font-size: 1.1rem;
 }
 #menu3-g .dropdown-item,
 #menu3-g .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 1.191rem;
 }
 #menu3-g .link:hover,
 #menu3-g .dropdown-item:hover,

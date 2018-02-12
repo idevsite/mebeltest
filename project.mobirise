@@ -34,7 +34,7 @@
     "favicon": "",
     "noImageResize": "",
     "scrollAnimation": "true",
-    "cookiesAlert": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "google-analytics": "",
     "html_before": "<!-- CarrotQuest BEGIN -->\r\n<script type=\"text/javascript\">\r\n    (function(){\r\n      function Build(name, args){return function(){window.carrotquestasync.push(name, arguments);} }\r\n      if (typeof carrotquest === 'undefined') {\r\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;\r\n        s.src = '//cdn.carrotquest.io/api.min.js';\r\n        var x = document.getElementsByTagName('head')[0]; x.appendChild(s);\r\n        window.carrotquest = {}; window.carrotquestasync = []; carrotquest.settings = {};\r\n        var m = ['connect', 'track', 'identify', 'auth', 'open', 'onReady', 'addCallback', 'removeCallback', 'trackMessageInteraction'];\r\n        for (var i = 0; i < m.length; i++) carrotquest[m[i]] = Build(m[i]);\r\n      }\r\n    })();\r\n  carrotquest.connect('14405-3549b873b58e06fbd45fc080bf');\r\n</script>\r\n<!-- CarrotQuest END -->",
     "headbody": "",
@@ -387,13 +387,15 @@
               "background-color": "#345789"
             },
             ".link, .dropdown-item": {
-              "color": "#345789"
+              "color": "#345789",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "#222"
@@ -426,8 +428,12 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#fff",
-            "fontSize": "0.75",
-            "fontName": {},
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#345789",
             "fontHoverColor": "#222"
           },
