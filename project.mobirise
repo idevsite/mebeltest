@@ -12,7 +12,7 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#ba110e",
-        "titleFont": "Amatic SC",
+        "titleFont": "Droid Sans",
         "subtitleFont": "Roboto",
         "textFont": "Roboto",
         "isRoundedButtons": true
@@ -34,9 +34,9 @@
     "favicon": "",
     "noImageResize": "",
     "scrollAnimation": "true",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "cookiesAlert": "",
     "google-analytics": "",
-    "html_before": "<!-- CarrotQuest BEGIN -->\r\n<script type=\"text/javascript\">\r\n    (function(){\r\n      function Build(name, args){return function(){window.carrotquestasync.push(name, arguments);} }\r\n      if (typeof carrotquest === 'undefined') {\r\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;\r\n        s.src = '//cdn.carrotquest.io/api.min.js';\r\n        var x = document.getElementsByTagName('head')[0]; x.appendChild(s);\r\n        window.carrotquest = {}; window.carrotquestasync = []; carrotquest.settings = {};\r\n        var m = ['connect', 'track', 'identify', 'auth', 'open', 'onReady', 'addCallback', 'removeCallback', 'trackMessageInteraction'];\r\n        for (var i = 0; i < m.length; i++) carrotquest[m[i]] = Build(m[i]);\r\n      }\r\n    })();\r\n  carrotquest.connect('14405-3549b873b58e06fbd45fc080bf');\r\n</script>\r\n<!-- CarrotQuest END -->",
+    "html_before": "<!-- Begin Verbox {literal} -->\r\n<script type='text/javascript'>\r\n\t(function(d, w, m) {\r\n\t\twindow.supportAPIMethod = m;\r\n\t\tvar s = d.createElement('script');\r\n\t\ts.type ='text/javascript'; s.id = 'supportScript'; s.charset = 'utf-8';\r\n\t\ts.async = true;\r\n\t\tvar id = '86f55bdee0b968ae74d59890ad4cccc7';\r\n\t\ts.src = 'https://admin.verbox.ru/support/support.js?h='+id;\r\n\t\tvar sc = d.getElementsByTagName('script')[0];\r\n\t\tw[m] = w[m] || function() { (w[m].q = w[m].q || []).push(arguments); };\r\n\t\tif (sc) sc.parentNode.insertBefore(s, sc); \r\n\t\telse d.documentElement.firstChild.appendChild(s);\r\n\t})(document, window, 'Verbox');\r\n</script>\r\n<!-- {/literal} End Verbox -->",
     "headbody": "",
     "botbody": ""
   },
@@ -106,14 +106,14 @@
               "font-size": "16px"
             },
             "H1": {
-              "text-align": "left",
+              "text-align": "center",
               "color": "#333333",
               "font-size": "72px",
               "font-family": "'Roboto Condensed', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             },
             "P": {
-              "text-align": "left",
+              "text-align": "center",
               "color": "#000000",
               "font-size": "16px"
             }

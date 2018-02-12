@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 
 
@@ -37,7 +37,7 @@ cite,
 .panel-title a,
 .tags,
 .item-title h3 {
-  font-family: 'Amatic SC', handwriting;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -51,17 +51,17 @@ cite,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Amatic SC', handwriting;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-author-name {
-  font-family: 'Amatic SC', handwriting;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-author-desc {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Amatic SC', handwriting;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -508,13 +508,13 @@ a:hover,
   font-size: 16px;
 }
 #header2-c H1 {
-  text-align: left;
+  text-align: center;
   color: #333333;
   font-size: 72px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 #header2-c P {
-  text-align: left;
+  text-align: center;
   color: #000000;
   font-size: 16px;
 }
